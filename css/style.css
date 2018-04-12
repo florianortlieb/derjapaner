@@ -1,0 +1,24 @@
+
+/* –––––––––––––––––––––––––––––––––––––––– RESPONSIVE TYPO
+*/
+
+/* font-size: calc((X / 16 * 1em) + (Y - X) * (100vw - 20em) / (Z - 320)); */
+
+html {
+    font-size: 18px;
+    font-size: calc((10 / 16 * 1em) + (16 - 10) * (100vw - 20em) / (1600 - 320));
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––– CONTENT
+*/
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo {
+    width: 10rem;
+    max-width: 50%;
+}
