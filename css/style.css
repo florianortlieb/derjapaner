@@ -6,7 +6,7 @@
 
 html {
     font-size: 18px;
-    font-size: calc((10 / 16 * 1em) + (16 - 10) * (100vw - 20em) / (1600 - 320));
+    font-size: calc((10 / 16 * 1em) + (30 - 10) * (100vw - 20em) / (1600 - 320));
 }
 
 
@@ -19,11 +19,14 @@ html {
 }
 
 #logo {
-    width: 50rem;
-    height: 10rem;
-    max-width: 50%;
+    width: 20rem;
+    max-width: 75%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 5rem;
+    position: absolute;
+    margin: auto;
+
+    pointer-events: none;
 }
-
-
-/* TEST TEST TEST
-*/
