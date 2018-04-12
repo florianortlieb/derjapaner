@@ -19,9 +19,8 @@ html {
 }
 
 #logo {
-    height: 5rem;
     width: 50rem;
-    background: red;
+    height: 10rem;
     max-width: 50%;
 }
 
